@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Be Always Beautiful</string>
+    <string name="enterSmt">Please enter your</string>
+    <string name="empty">Empty fields</string>
+    <string name="error">Error has occured</string>
+    <string name="unsuccess">Unsuccessful, Please Try Again</string>
+    <string name="home">Home</string>
+    <string name="logout">Logout</string>
+    <string name="product">Product</string>
+    <string name="share">Cannot be shared</string>
+    <string name="welcome">\n Be Always Beautiful and enjoy searching for perfect makeup product!</string>
+
+    <string name="blush">Blush</string>
+    <string name="bronzer">Bronzer</string>
+    <string name="eyebrow">Eyebrow</string>
+    <string name="eyeliner">Eyeliner</string>
+    <string name="eyeshadow">Eyeshadow</string>
+    <string name="foundation">Foundation</string>
+    <string name="lipstick">Lipstick</string>
+    <string name="mascara">Mascara</string>
+
+
+</resources>

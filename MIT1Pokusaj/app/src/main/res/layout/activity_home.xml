@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/makeup"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/my_toolbar"
+        android:background="@color/colorPrimary"
+        app:titleTextColor="@color/colorWhite"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/bg_oval"
+        android:orientation="vertical"
+        android:padding="40dp">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:background="@drawable/bg_oval"
+                android:orientation="vertical"
+                android:padding="40dp">
+                <ProgressBar
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:id="@+id/progressBar"
+                    android:layout_gravity="center"
+                    android:visibility="visible"
+                    android:indeterminateTint="@color/colorPrimaryText"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_user"
+                    android:layout_gravity="center"
+                    android:textStyle="italic"
+                    android:textColor="#FFFFFF"
+                    android:textSize="30dp"
+                    app:fontFamily="@font/quicksand_bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#FFFFFF"
+                    android:textSize="20dp"
+                    android:textAlignment="center"
+                    android:id="@+id/tv_welcome"
+                    app:fontFamily="@font/quicksand_bold" />
+
+                <Button
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/start_btn"
+                    android:background="@drawable/bg_btn"
+                    android:text="Let's start"
+                    android:textColor="@color/colorWhite"
+                    android:layout_gravity="center"
+                    android:paddingBottom="5dp"/>
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+
+</RelativeLayout>
